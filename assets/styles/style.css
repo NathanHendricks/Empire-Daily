@@ -1,0 +1,48 @@
+    .hero-img {
+        background: linear-gradient(#00000080, #00000080), url(https://wallpaperaccess.com/full/130071.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .vader-img {
+        background-size: cover;
+        height: 300px;
+        width: 350px;
+    }
+    
+    .header-title-font {
+        font-family: 'Press Start 2P', cursive;
+    }
+    
+    .floating-hero-text {
+        float: left;
+        text-shadow: 2px 2px #000000;
+    }
+    
+    .spill {
+        bottom: -35px;
+    }
+    
+    .empahsis {
+        width: 22rem;
+    }
+    
+    .more-btn {
+        background-color: #f06666!important;
+        color: #000000 !important;
+        border-radius: 45%;
+        box-shadow: 0px 0px 12px #f06666;
+        backdrop-filter: blur(4px);
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .floating-hero-text {
+            visibility: hidden;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .spill {
+            bottom: 0%;
+        }
+    }
