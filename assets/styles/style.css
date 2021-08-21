@@ -10,6 +10,38 @@
         width: 350px;
     }
     
+    .bg-dark {
+        background-image: linear-gradient(to bottom right, #2d2d2d, #2a4756) !important;
+    }
+    
+    .bg-secondary {
+        background-image: linear-gradient(to bottom right, #fac585, #271e15) !important;
+    }
+    
+    .bg-danger {
+        background-image: linear-gradient(to bottom right, #000000, #9ca7af)!important;
+    }
+    
+    .border-warning {
+        color: #f0ec1a!important;
+    }
+    
+    .text-warning {
+        color: #f0ec1a!important;
+    }
+    
+    .text-light {
+        color: #1b1700!important;
+    }
+    
+    .card {
+        background-color: #ffffff85;
+    }
+    
+    .card-body {
+        background-color: #fffdf260!important;
+    }
+    
     .header-title-font {
         font-family: 'Press Start 2P', cursive;
     }
@@ -23,15 +55,27 @@
         bottom: -35px;
     }
     
+    .small {
+        height: 10rem;
+    }
+    
     .empahsis {
         width: 22rem;
+        height: 15rem;
     }
     
     .more-btn {
-        background-color: #f06666!important;
-        color: #000000 !important;
-        border-radius: 45%;
-        box-shadow: 0px 0px 12px #f06666;
+        background: #ffffffa2!important;
+        border-radius: 45px;
+        box-shadow: 0px 0px 12px #db0233;
+        backdrop-filter: blur(4px);
+    }
+    
+    .more-btn:hover {
+        background: #db0233a2!important;
+        color: #fffdf2;
+        border-radius: 45px;
+        box-shadow: 0px 0px 4px #5a1515;
         backdrop-filter: blur(4px);
     }
     
